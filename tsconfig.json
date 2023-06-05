@@ -9,7 +9,7 @@
     "jsx": "preserve",
     "sourceMap": true,
     "lib": ["esnext", "dom"],
-    "plugins": [{ "name": "@vuedx/typescript-plugin-vue" }]
+    // "plugins": [{ "name": "@vuedx/typescript-plugin-vue" }]
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "node_modules/vue-hcaptcha/dist/*.d.ts"]
 }
