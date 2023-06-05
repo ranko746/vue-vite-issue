@@ -1,0 +1,28 @@
+.stats {
+  padding: 20px;
+}
+
+.loading {
+  color: #fff;
+}
+
+.stats-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-item {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.stats-container table {
+  background-color: #dadada;
+  color: #333;
+}
+
+table thead {
+  background-color: #965aae;
+  color: #fff;
+}

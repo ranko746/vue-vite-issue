@@ -1,0 +1,345 @@
+.dashboard-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #322d2d;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .dashboard-container {
+    max-width: 100%;
+    padding: 10px;
+  }
+}
+
+.form-groupdashboard {
+  display: flex;
+  align-items: center;
+}
+
+.form-groupdashboard input[type="text"] {
+  font-size: 16px !important; 
+  height: 23px !important;
+  margin-top: -2px;
+}
+
+h1 {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 1.8rem;
+  color: #fff;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+h2 {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 20px;
+  margin-top: -5px;
+}
+
+h3 {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.h44 {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 18px !important;
+  font-weight: bold;
+  color: #f2eeee;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.apifont {
+  font-family: 'Roboto', sans-serif; /* Use Roboto font for a modern look */
+  background-color: #201e22;
+  width: fit-content;
+  font-size: 15px !important; /* Set font size to 18px */
+  font-weight: bold;
+  color: #f2eeee;
+  display: inline-block;
+  padding: 8px 16px; /* Add padding for a better appearance */
+  border-radius: 4px; /* Add rounded corners */
+  margin-bottom: -5px;
+  margin-top: -1px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.copy-button {
+  background-color: #201e22;
+  margin-left: 5px;
+  color: #f2eeee;
+  font-size: 15px;
+}
+
+.new-api-key-button {
+  background-color: #201e22;
+  margin-left: 5px;
+  color: #f2eeee;
+  font-size: 15px;
+}
+
+.copy-success {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+
+.cooldown-error {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+
+.cooldown-error.fade-enter-active,
+.cooldown-error.fade-leave-active {
+  transition: opacity 1s ease-in-out 2s; /* delay the transition for 19 seconds, and set duration to 1 second */
+}
+
+.new-api-key-success {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 1s;
+}
+
+.new-api-key-success.fade-enter-active,
+.new-api-key-success.fade-leave-active {
+  transition: opacity 1s ease-in-out 12s; /* delay the transition for 19 seconds, and set duration to 1 second */
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.eye-icon {
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.apifont .visible {
+  display: inline;
+}
+
+.apifont .hidden {
+  display: none;
+}
+
+.register-search {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem !important;
+  color: #232020 !important;
+  background-color: #f1e9e9 !important;
+  padding: 0.5rem !important;
+}
+
+.button-register {
+  background-color: rgb(161, 105, 172);
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.logoutbutton {
+  background-color: rgb(202, 56, 53);
+  color: #fff;
+  padding: 0.5em 1em;
+  size: 100%;
+  border: none;
+  border-radius: 0.25em;
+  display: block; /* Changed from inline-block to block */
+  margin: 0 auto; /* Added this to center the button */
+  margin-top: -10px;
+}
+
+.successmessagedomain {
+  margin-top: -3px;
+  margin-left: 10px;
+  color: #bc3cbc;
+}
+
+.errormessagedomain {
+  margin-top: -3px;
+  margin-left: 10px;
+  color: #c70a0a;
+}
+
+.domain-select {
+  font-size: 14px !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #232020 !important;
+  height: 40px;
+  width: 150px;
+  background-color: #f1e9e9 !important;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-top: -20px;
+  max-width: none;
+  max-height: none;
+}
+
+@media screen and (max-width: 767px) {
+  .domain-select {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: rgb(41, 36, 36);
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 0px 0px 10px rgba(91, 85, 91, 0.5);
+  display: flex;
+  flex-direction: column; /* Add this line */
+  align-items: center; /* Add this line */
+}
+
+.popup-content button.yes-button {
+  background-color: rgb(161, 105, 172);
+  border: none;
+}
+
+.popup-content button.no-button {
+  background-color: rgb(161, 105, 172);
+  border: none;
+}
+
+.yes-button-register,
+.no-button-register,
+.yes-button-logout,
+.no-button-logout {
+  background-color: rgb(161, 105, 172);
+}
+
+.side-by-side-buttons {
+  display: inline-block;
+}
+
+.table-container {
+  margin: 2rem auto;
+  margin-top: -8px !important;
+  width: 80% !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .table-container {
+    width: 100% !important;
+  }
+}
+
+.button-deletedomain {
+  font-size: 100%;
+  background-color: #f14d4d;
+}
+
+.delete-domain-input {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px !important;
+  color: #232020 !important;
+  background-color: #f1e9e9 !important;
+  height: 100%;
+  max-height: none;
+  max-width: 100%;
+  margin-bottom: 10px; /* Add margin for spacing */
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #333333;
+  color: #f2f2f2;
+}
+
+th,
+td {
+  padding: 1rem;
+  text-align: left;
+}
+
+.routerlinkmanagedns {
+  font-weight: bold;
+  color: rgb(159, 81, 163);
+  text-decoration: none;
+  border-bottom: 2px solid rgb(159, 81, 163);
+}
+
+.routerlinkmanagedns:hover {
+  text-decoration: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+
+thead {
+  background-color: #444444;
+}
+
+th {
+  font-weight: bold;
+}
+
+td:last-child {
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  table {
+    font-size: 14px;
+  }
+  th,
+  td {
+    padding: 0.5rem;
+  }
+  .button-deletedomain {
+    font-size: 100%;
+    background-color: #dc3333;
+  }
+  .table-container {
+    width: 100%;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+  h1,
+  h3 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 110%;
+    color: #fff;
+    margin-bottom: 5px;
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,320 @@
+h4 {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 200%;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 1rem;
+}
+
+.dnstable-container {
+  overflow-x: auto;
+}
+
+.dnsmaintablecontainer {
+  max-width: 800px;
+  width: auto;
+  margin: auto;
+  padding: 20px;
+  background-color: #322d2d;
+  border-radius: 20px;
+}
+
+.form-group {
+  margin-bottom: 2rem;
+}
+
+.recordbutton {
+  background-color: rgb(161, 105, 172);
+  margin: 0 auto;
+  display: block;
+}
+
+.table-container {
+  margin: 3rem auto;
+  width: 80%;
+}
+
+th,
+td {
+  padding: 1rem;
+  text-align: left;
+}
+
+.dnsmaintablecontainer h4 {
+  font-size: 160%;
+}
+
+.selectedDomain {
+  appearance: none;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  font-size: 100%;
+  font-weight: 500;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #333;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.selectedDomain:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+.selectedDomain:focus {
+  box-shadow: 0 0 0 3px rgba(196, 105, 182, 0.849);
+}
+
+.selectedDomain option {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+.add-record-popup {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(50, 45, 45, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-record-popup-content {
+  position: relative;
+  background-color: #322d2d;
+  color: #fff;
+  padding: 20px;
+  width: 80%;
+  max-width: 400px;
+  border-radius: 5px;
+  font-size: 100%;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.add-record-popup-content h5 {
+  font-size: 100%;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.form-group2 {
+  margin-bottom: 10px;
+}
+
+.form-group2 label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.ns-value textarea {
+  height: auto;
+  min-height: 75px;
+  max-height: 150px;
+}
+
+h45 {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 18px !important;
+  font-weight: bold;
+  color: #f2eeee;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.error-message2 {
+  color: #a11010;
+  font-size: 80%;
+  font-weight: bold;
+  width: 100%;
+  max-width: 80px;
+  background-color: #ffeeee;
+  border: 2px solid #a11010;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.error-message2.show {
+  opacity: 1;
+}
+
+.error-message2.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.success-message2 {
+  color: rgba(255, 255, 255, 0.849);
+  font-size: 80%;
+  font-weight: bold;
+  width: 100%;
+  max-width: 80px;
+  background-color: rgba(197, 109, 183, 0.849);
+  border: 2px solid #cecece;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.success-message2.show {
+  opacity: 1;
+}
+
+.success-message2.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.error-message3,
+.success-message3 {
+  color: rgba(255, 255, 255, 0.849);
+  font-size: 80%;
+  font-weight: bold;
+  width: 100%;
+  max-width: 80px;
+  background-color: rgba(197, 109, 183, 0.849);
+  border: 2px solid #cecece;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.error-message3,
+.success-message3 {
+  transition: opacity 1s;
+}
+
+.hide {
+  opacity: 0 !important;
+}
+
+.form-control2 {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+}
+
+.record-ttl {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+}
+
+.record-type {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: auto;
+  margin-bottom: 10px;
+  color: #333;
+  background-color: #fff;
+}
+
+.add-record-button, .cancel-button2 {
+  background-color: rgb(161, 105, 172);
+  color: #fff;
+  border: none;
+  size: 100%;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.deleteall-record-button {
+  background-color: rgb(202, 56, 53);
+  color: #fff;
+  border: none;
+  margin-bottom: 10px;
+  size: 100%;
+  max-width: auto;
+  width: auto;
+  max-height: auto;
+  margin-top: 10px;
+  height: auto;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.delete-record-button2, .edit-record-button2 {
+  background-color: rgb(161, 105, 172);
+  color: #fff;
+  border: none;
+  size: 100%;
+  height: auto;
+  width: 100%;
+  max-width: 80px !important;
+  border-radius: 5px;
+  padding: auto;
+  font-size: auto;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.popup-content {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.form-control2,
+.record-ttl,
+.record-type {
+  font-family:Arial, Helvetica, sans-serif !important;
+}
+
+.selectedDomain {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+  font-size: 16px;
+  color: #000000;
+}
+
+.yes-button2, .no-button2 {
+  background-color: rgb(161, 105, 172);
+  color: #fff; 
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: auto;
+  cursor: pointer;
+  max-width: 100%;
+  max-height: 100%;
+  margin-right: 10px !important;
+  margin: auto;
+}
