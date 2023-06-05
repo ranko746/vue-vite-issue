@@ -1,6 +1,6 @@
 node_modules
 .DS_Store
-dist
+# dist
 dist-ssr
 *.local
 .env
@@ -14,7 +14,7 @@ amplify/mock-api-resources
 amplify/backend/amplify-meta.json
 amplify/backend/.temp
 build/
-dist/
+# dist/
 node_modules/
 aws-exports.js
 awsconfiguration.json
